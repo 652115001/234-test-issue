@@ -16,7 +16,7 @@ body:
      label: Contract Details
      description: Also tell us, what did you expect to happen?
      placeholder: ex. email@example.com
-   validation:
+   validations:
      required: false
  - type: textarea
    id: what-happened
@@ -25,7 +25,7 @@ body:
      description: Also tell us, what did you expect to happen?
      placeholder: Tell us what you see!
      value: "A bug happened!"
-   validation:
+   validations:
      required: true
  - type: dropdown
    id: Version
@@ -36,7 +36,7 @@ body:
        - 1.0.2 (Default)
        - 1.0.3 (Edge)
      default: 0
-   validation:
+   validations:
      required: true
  - type: dropdown
    id: browsers
